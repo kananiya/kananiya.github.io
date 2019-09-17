@@ -2,7 +2,7 @@
 title: "Silvery Moonight"
 description: "Minimalist Jekyll theme for documentation site"
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank /textlog
-url: ""
+url: "/textlog"
 author: "John Doe"
 
 # Build settings
