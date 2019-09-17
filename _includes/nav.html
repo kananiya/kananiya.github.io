@@ -1,8 +1,1 @@
-{%- if site.texture.showNav -%}
-<div class="navbar">
-	<ul>
-		<a href="#"><li>Home</li></a>
-		<a href="#"><li>About</li></a>
-	</ul>
-</div>
-{%- endif -%}
+<p class="site-nav"><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a> / <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">RSS</a></p>
